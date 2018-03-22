@@ -29,9 +29,13 @@ Hence, I try to apply TF_IDF to solve the issue to find which keywords are impor
 ## How to run and example
 ### Version
 - Python3 (must python3 instead of python2)
+## Run
 - train mode with 1000 topic
 `python train_model.py 1000`
 - run output top 10 topic
 `python output_top_topic.py 10`
 - predict conversation with file_path
-`python predict_new_conversation.py data/dialogs/4/1.tsv`
+`python predict_new_conversation.py test.tsv`
+## If rerun with new model
+- clear all data previous
+`sh clear.sh`
